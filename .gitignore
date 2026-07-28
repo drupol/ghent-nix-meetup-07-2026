@@ -1,0 +1,5 @@
+**.qcow2
+src/vm/result
+src/vm/result/
+diagrams/
+TOPOLOGY.md

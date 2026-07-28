@@ -1,0 +1,2 @@
+build:
+  kitty --start-as=maximized --title="Ghent Meetup - Nix + Den demo" -e presenterm -x -X index.md

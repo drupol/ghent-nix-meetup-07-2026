@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 162 208"
+   width="162"
+   height="208"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="den-logo.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.2175"
+     inkscape:cx="85.682074"
+     inkscape:cy="123.78805"
+     inkscape:window-width="1920"
+     inkscape:window-height="1132"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="denGradient"
+       x1="0.15000001"
+       y1="0.1"
+       x2="0.85000002"
+       y2="0.89999998">
+      <stop
+         offset="0%"
+         stop-color="#00A3FF"
+         id="stop1" />
+      <stop
+         offset="50%"
+         stop-color="#0066FF"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#6E56CF"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient14"
+       x1="189.72798"
+       y1="121.16637"
+       x2="241.40486"
+       y2="180.22566"
+       gradientTransform="scale(0.67728546,1.4764823)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient15"
+       x1="195.69721"
+       y1="132.50568"
+       x2="283.97489"
+       y2="233.39446"
+       gradientTransform="scale(0.8881067,1.1259908)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient16"
+       x1="179.86549"
+       y1="86.365343"
+       x2="294.40034"
+       y2="217.26231"
+       gradientTransform="scale(0.84340952,1.1856636)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient17"
+       x1="190.2"
+       y1="78.8"
+       x2="209.8"
+       y2="101.2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient18"
+       x1="118.2"
+       y1="258.8"
+       x2="137.8"
+       y2="281.2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient19"
+       x1="154.2"
+       y1="258.8"
+       x2="173.8"
+       y2="281.2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient20"
+       x1="252.2"
+       y1="178.8"
+       x2="271.8"
+       y2="201.2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#denGradient"
+       id="linearGradient21"
+       x1="252.2"
+       y1="258.8"
+       x2="271.8"
+       y2="281.2"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <style
+     id="style3">
+    .line {
+      fill: none;
+      stroke: url(#denGradient);
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .node-outer {
+      fill: url(#denGradient);
+    }
+    .node-inner {
+      fill: #ffffff;
+    }
+  </style>
+  <!-- Far-left branch joining main left trace -->
+  <!-- Main Left trace going to Apex and right branch -->
+  <!-- Inner arch trace going to Bottom-Right -->
+  <!-- Ring Nodes -->
+  <!-- Top Apex Node -->
+  <!-- Bottom-Left Outer Node -->
+  <!-- Bottom-Left Inner Node -->
+  <!-- Mid-Right Node -->
+  <!-- Bottom-Right Node -->
+  <g
+     id="g14"
+     transform="translate(-114,-76)">
+    <path
+       class="line"
+       d="m 128,270 v -55 l 36,-40"
+       id="path3"
+       style="stroke:url(#linearGradient14)" />
+    <path
+       class="line"
+       d="m 164,175 36,-33 36,26 v 47 l 26,25 v 30"
+       id="path5"
+       style="stroke:url(#linearGradient15)" />
+    <path
+       class="line"
+       d="m 164,270 v -95 l -26,-25 62,-60 62,60 v 40"
+       id="path4"
+       style="stroke:url(#linearGradient16)" />
+    <circle
+       class="node-outer"
+       cx="200"
+       cy="90"
+       r="14"
+       id="circle5"
+       style="fill:url(#linearGradient17)" />
+    <circle
+       class="node-inner"
+       cx="200"
+       cy="90"
+       r="6"
+       id="circle6" />
+    <circle
+       class="node-outer"
+       cx="128"
+       cy="270"
+       r="14"
+       id="circle7"
+       style="fill:url(#linearGradient18)" />
+    <circle
+       class="node-inner"
+       cx="128"
+       cy="270"
+       r="6"
+       id="circle8" />
+    <circle
+       class="node-outer"
+       cx="164"
+       cy="270"
+       r="14"
+       id="circle9"
+       style="fill:url(#linearGradient19)" />
+    <circle
+       class="node-inner"
+       cx="164"
+       cy="270"
+       r="6"
+       id="circle10" />
+    <circle
+       class="node-outer"
+       cx="262"
+       cy="190"
+       r="14"
+       id="circle11"
+       style="fill:url(#linearGradient20)" />
+    <circle
+       class="node-inner"
+       cx="262"
+       cy="190"
+       r="6"
+       id="circle12" />
+    <circle
+       class="node-outer"
+       cx="262"
+       cy="270"
+       r="14"
+       id="circle13"
+       style="fill:url(#linearGradient21)" />
+    <circle
+       class="node-inner"
+       cx="262"
+       cy="270"
+       r="6"
+       id="circle14" />
+  </g>
+</svg>

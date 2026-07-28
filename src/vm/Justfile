@@ -1,0 +1,38 @@
+_cleanup:
+  echo "Cleaning leftovers..."
+  rm -rf *.qcow2
+  rm -rf diagrams
+
+build-vm:
+  echo "Building vm..."
+  nixos-rebuild build-vm --image-variant qemu --flake .#igloo
+
+run-vm:
+  @just _cleanup
+  @just build-vm
+  echo "Running vm..."
+  ./result/bin/run-nixos-vm
+  @just _cleanup
+
+run-vm-nographic:
+  @just _cleanup
+  @just build-vm
+  echo "Running vm in nographic mode..."
+  ./result/bin/run-nixos-vm --nographic
+  @just _cleanup
+
+diagrams:
+  @just _cleanup
+  echo "Building diagrams..."
+  nix build .#legacyPackages.x86_64-linux.diagrams.write-diagrams -L
+  ./result/bin/write-diagrams
+  echo "Opening ..."
+  gram ../../diagrams
+
+topology:
+  @just _cleanup
+  echo "Building diagrams..."
+  nix build .#legacyPackages.x86_64-linux.diagrams.write-topology -L
+  ./result/bin/write-topology
+  echo "Opening ..."
+  gram ../../TOPOLOGY.md
